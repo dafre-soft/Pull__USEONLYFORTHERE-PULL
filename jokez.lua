@@ -1,6 +1,3 @@
--- auto_reload_map.lua
--- Автоматически перезагружает карту каждые 10 секунд, пока не остановят командой !stoprel
-
 if SERVER then
     local shouldReload = true
     local reloadTimerName = "AutoReloadMapTimer"
